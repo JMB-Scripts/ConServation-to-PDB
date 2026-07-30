@@ -3,8 +3,10 @@
 **CS-to-PDB** is a standalone Python application that calculates residue conservation from a Multiple Sequence Alignment (MSA) and maps evolutionary information onto three-dimensional protein structures by storing conservation scores in the PDB B-factor field. The resulting structures can be visualized directly in **PyMOL** and **ChimeraX**, while an interactive **HTML alignment viewer** provides a convenient way to compare sequence conservation with structural data.
 
 ---
+
 30-07-2026 v8
 Add a3m alignement file input  
+
 ---
 
 ## Features
