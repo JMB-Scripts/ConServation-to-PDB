@@ -24,26 +24,25 @@ Add a3m alignement file input
 - Generates an interactive **HTML alignment viewer**.
 - Supports all **Matplotlib** colormaps, including custom palettes (e.g. MolNympheas).
   
-<img width="932" height="900" alt="image" src="https://github.com/user-attachments/assets/30356ca9-685f-487f-b18c-79ae692998a2" />
+<img width="892" height="1040" alt="image" src="https://github.com/user-attachments/assets/5874cc75-3743-41e7-8053-d2906b7cc965" />
 
 
 - Uses identical color palettes for:
   - Protein structures
   - HTML alignment viewer
 
-<img width="1264" height="710" alt="image" src="https://github.com/user-attachments/assets/91a47061-cbba-43ac-9bb8-6d3229864095" />
+<img width="474" height="229" alt="image" src="https://github.com/user-attachments/assets/e1dca1e9-7fb6-4a46-8ef3-d5f17f114e39" />
 
 
   - PyMOL
     
-   <img width="1117" height="757" alt="image" src="https://github.com/user-attachments/assets/3369be53-188c-4369-b979-bc42fab8ab5e" />
+<img width="308" height="265" alt="image" src="https://github.com/user-attachments/assets/fd4b635a-de3f-40bb-9fd5-38194b063c30" />
 
 
   - ChimeraX
+  - 
+<img width="327" height="247" alt="image" src="https://github.com/user-attachments/assets/cec59c56-9a1c-48a4-8758-2f395290128f" />
 
-<img width="760" height="775" alt="image" src="https://github.com/user-attachments/assets/23932c0c-c1d2-4686-acc7-ebe95fb7411b" />
-
-(small bug with the ramp, I'm working on it)
 
 - Simple graphical user interface.
 - Cross-platform (Linux, macOS and Windows).
@@ -60,6 +59,7 @@ Project/
 ├── visualization.pml
 ├── visualization.cxc
 └── alignment.html
+└── settings.json
 ```
 
 | File | Description |
@@ -69,7 +69,7 @@ Project/
 | **.pml** | PyMOL visualization script |
 | **.cxc** | ChimeraX visualization script |
 | **.html** | Interactive conservation-colored alignment viewer |
-
+| **.json** | To reload a session |
 
 
 ## Requirements
@@ -78,7 +78,7 @@ Project/
 - Biopython
 - NumPy
 - Matplotlib
-- Tkinter (included with most Python installations)
+- pSyde
 
 Install the required packages with:
 
