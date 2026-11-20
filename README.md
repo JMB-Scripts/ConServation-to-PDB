@@ -7,6 +7,10 @@
 30-07-2026 v8
 Add a3m alignement file input  
 
+20-11-2026 v10
+Add load previous session
+Cosmetic in the gui 
+Secondary Strucutures from the model are diplayed on the top the alignement sequence
 ---
 
 ## Features
